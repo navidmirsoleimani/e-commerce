@@ -6,12 +6,12 @@ const Footer = () => {
       {/* black container region */}
       <div className='bg-blue-600'>
         <div className='p-10 flex flex-col lg:flex-row gap-5 lg:gap-[30%] items-center  translate-y-[50%] bg-black w-[80%] mx-auto rounded-2xl'>
-          <h3 className='text-white text-2xl lg:text-4xl'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
+          <h3 className='text-white text-2xl lg:text-4xl font-anton'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
 
           <div className='w-full flex flex-col gap-3'>
             <div className='flex px-5 py-3 gap-3 rounded-4xl bg-white text-black'>
               <img className='' src="email.svg" alt="" />
-              <input className='text-sm sm:text-base border-none outline-none' type="email" placeholder='Enter your email address...' />
+              <input className='text-sm sm:text-base border-none outline-none flex-1' type="email" placeholder='Enter your email address...' />
             </div>
 
             <button className='px-8 py-3 rounded-4xl bg-white text-black' type='submit'>Subscribe to Newsletter</button>
