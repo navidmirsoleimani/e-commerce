@@ -1,0 +1,32 @@
+export const newProducts = [
+    {
+        id: 1,
+        name: 'T-SHIRT WITH TAPE DETAILS',
+        image: '/assets/newArrivals/img1.png',
+        price: 120,
+        rating: 4.5,
+    },
+    {
+        id: 2,
+        name: 'SKINNY FIT JEANS',
+        image: '/assets/newArrivals/img2.png',
+        price: 240,
+        previousPrice: 260,
+        rating: 3.5,
+    },
+    {
+        id: 3,
+        name: 'CHECKERED SHIRT',
+        image: '/assets/newArrivals/img3.png',
+        price: 180,
+        rating: 4.5,
+    },
+    {
+        id: 4,
+        name: 'SLEEVE STRIPED T-SHIRT',
+        image: '/assets/newArrivals/img4.png',
+        price: 130,
+        previousPrice: 160,
+        rating: 4.5,
+    },
+]

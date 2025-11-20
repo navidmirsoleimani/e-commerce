@@ -1,4 +1,7 @@
+import ProductCard from '@/components/ProductCard'
 import React from 'react'
+import {newProducts} from '../../utils/newProducts.js'
+import {topSelling} from '../../utils/topSelling.js'
 
 const page = () => {
   return (
@@ -52,6 +55,14 @@ const page = () => {
           <img className='w-[20vw] lg:w-[10vw]' src="prada.svg" alt="" />
           <img className='w-[20vw] lg:w-[10vw]' src="calvinklein.svg" alt="" />
         </div>
+      </div>
+      {/* region ended */}
+
+
+      {/* cards region */}
+      <div className=''>
+        <ProductCard productList={newProducts} title='NEW ARRIVALS'/>
+        <ProductCard productList={topSelling} title='TOP SELLING'/>
       </div>
       {/* region ended */}
     </div>
