@@ -62,6 +62,7 @@ const page = () => {
       {/* cards region */}
       <div className=''>
         <ProductCard productList={newProducts} title='NEW ARRIVALS'/>
+        <hr className='text-gray-300' />
         <ProductCard productList={topSelling} title='TOP SELLING'/>
       </div>
       {/* region ended */}
