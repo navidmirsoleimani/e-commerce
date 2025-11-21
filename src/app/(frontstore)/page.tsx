@@ -66,6 +66,31 @@ const page = () => {
         <ProductCard productList={topSelling} title='TOP SELLING'/>
       </div>
       {/* region ended */}
+
+      {/* grid region */}
+      <div className='bg-[#F0F0F0] py-10 px-5 mx-4 lg:px-16 lg:mx-26 rounded-2xl'>
+        <h3 className='font-anton text-3xl lg:text-5xl text-center mb-10 '>BROWSE BY <br /> DRESS STYLE</h3>
+        <div className='flex flex-col gap-3 lg:grid lg:grid-cols-12 lg:gap-5'>
+          <div className='w-full h-[20dvh] lg:h-[30dvh] bg-white relative rounded-2xl lg:col-span-5'>
+            <p className='absolute z-10 top-5 left-5 text-3xl'>Casual</p>
+            <img className='absolute top-0 right-0 h-full rounded-2xl' src="/assets/image11.png" alt="" />
+          </div>
+          <div className='w-full h-[20dvh] lg:h-[30dvh] bg-white relative rounded-2xl lg:col-span-7'>
+            <p className='absolute z-10 top-5 left-5 text-3xl'>Formal</p>
+            <img className='absolute top-0 right-0 h-full rounded-2xl' src="/assets/image13.png" alt="" />
+          </div>
+          <div className='w-full h-[20dvh] lg:h-[30dvh] bg-white relative rounded-2xl lg:col-span-7'>
+            <p className='absolute z-10 top-5 left-5 text-3xl'>Party</p>
+            <img className='absolute top-0 right-0 h-full rounded-2xl' src="/assets/image12.png" alt="" />
+          </div>
+          <div className='w-full h-[20dvh] lg:h-[30dvh] bg-white relative rounded-2xl lg:col-span-5'>
+            <p className='absolute z-10 top-5 left-5 text-3xl'>Gym</p>
+            <img className='absolute top-0 right-0 h-full rounded-2xl' src="/assets/image14.png" alt="" />
+          </div>
+        </div>
+      </div>
+      {/* region ended */}
+
     </div>
   )
 }
