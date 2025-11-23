@@ -6,13 +6,14 @@ const ProductCard = ({productList , title}) => {
   return (
     <div className='flex flex-col gap-5 md:gap-8 lg:gap-12 my-10 md:my-12 lg:my-16'>
       <h3 className='text-2xl md:text-3xl lg:text-5xl font-anton text-center'>{title}</h3>  
-      <div className='flex justify-between gap-3 overflow-x-auto px-5 md:px-8 lg:px-16'>
+      
+      <div className='flex justify-between gap-3 overflow-x-auto hide-scrollbar px-5 md:px-8 lg:px-16'>
         {
             productList.map((product)=>{
                 return (
                     <div key={product.id} className='flex flex-col gap-5'>
                         <div className='bg-[#F0EEED] flex items-center justify-center w-40 h-40 md:w-50 md:h-50 lg:w-80 lg:h-80 rounded-xl'>
-                            <img className='w-36 md:w-46 lg:w-60' src={product.image} alt="" />
+                            <img className=' w-36 md:w-46 lg:w-60' src={product.image} alt="" />
                         </div>
                         <div className='flex px-1 flex-col items-start gap-2'>
                             <h2 className='font-bold text-sm md:text-base lg:text-lg'>{product.name}</h2>

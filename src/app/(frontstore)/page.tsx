@@ -2,6 +2,11 @@ import ProductCard from '@/components/ProductCard'
 import React from 'react'
 import {newProducts} from '../../utils/newProducts.js'
 import {topSelling} from '../../utils/topSelling.js'
+import {comments} from '../../utils/comments.js'
+import Responsive from '../../components/ReviewsCarousel'
+
+
+
 
 const page = () => {
   return (
@@ -90,6 +95,11 @@ const page = () => {
         </div>
       </div>
       {/* region ended */}
+
+      {/* reviews region */}
+      <Responsive list={comments} title={'OUR HAPPY CUSTOMERS'} />
+      {/* region ended */}
+
 
     </div>
   )
